@@ -1,0 +1,85 @@
+digraph MyTree
+{
+	bgcolor = darkgreen;
+	graph [splines = splines];
+	node  [width = 2, style = filled, color = wheat];
+	edge  [color = darkgreen, fontsize = 15];
+
+	subgraph cluster0
+    {
+		bgcolor = yellowgreen;		height  = 20		style   = filled;
+		label   = "Tree[0x7ffe0548db90] called like '&tree' from akinator.cpp(78) StartAkinatorGame()";
+
+		105759274696768 [shape=oval, height = 1, label = "Это учитель "];
+		105759274696768 -> 105759274696864 [color = green];
+		105759274696864 [shape=oval, height = 1, label = "Она преподает физику "];
+		105759274696864 -> 105759274696912 [color = green];
+		105759274696912 [shape=oval, height = 1, label = "Он запускает ракеты "];
+		105759274696912 -> 105759274696960 [color = green];
+		105759274696960 [shape=oval, height = 1, label = "Рамиль Рашитович "];
+		105759274696912 -> 105759274697008 [color = red];
+		105759274697008 [shape=oval, height = 1, label = "она молодая
+"];
+		105759274697008 -> 105759274698976 [color = green];
+		105759274698976 [shape=oval, height = 1, label = "Юлия Юрьевна
+"];
+		105759274697008 -> 105759274699072 [color = red];
+		105759274699072 [shape=oval, height = 1, label = "Гульдар Ваисовна "];
+		105759274696864 -> 105759274697056 [color = red];
+		105759274697056 [shape=oval, height = 1, label = "Она преподает Русский язык "];
+		105759274697056 -> 105759274697104 [color = green];
+		105759274697104 [shape=oval, height = 1, label = "Она преподавала у Ильнура "];
+		105759274697104 -> 105759274697152 [color = green];
+		105759274697152 [shape=oval, height = 1, label = "Зифа Зиевна "];
+		105759274697104 -> 105759274697248 [color = red];
+		105759274697248 [shape=oval, height = 1, label = "Фарида Фаритовна "];
+		105759274697056 -> 105759274697296 [color = red];
+		105759274697296 [shape=oval, height = 1, label = "Она молодая "];
+		105759274697296 -> 105759274697392 [color = green];
+		105759274697392 [shape=oval, height = 1, label = "Он шарит за компы "];
+		105759274697392 -> 105759274697440 [color = green];
+		105759274697440 [shape=oval, height = 1, label = "Олег Андреевич "];
+		105759274697392 -> 105759274697536 [color = red];
+		105759274697536 [shape=oval, height = 1, label = "Эльвира Рафисовна "];
+		105759274697296 -> 105759274697584 [color = red];
+		105759274697584 [shape=oval, height = 1, label = "Она топит за рух "];
+		105759274697584 -> 105759274697680 [color = green];
+		105759274697680 [shape=oval, height = 1, label = "Она историк "];
+		105759274697680 -> 105759274697776 [color = green];
+		105759274697776 [shape=oval, height = 1, label = "Амина Анваровна "];
+		105759274697680 -> 105759274697872 [color = red];
+		105759274697872 [shape=oval, height = 1, label = "Гульсасак Салаватовна "];
+		105759274697584 -> 105759274697920 [color = red];
+		105759274697920 [shape=oval, height = 1, label = "Сакина Хурматовна "];
+		105759274696768 -> 105759274697968 [color = red];
+		105759274697968 [shape=oval, height = 1, label = "Он играет Валорант "];
+		105759274697968 -> 105759274698016 [color = green];
+		105759274698016 [shape=oval, height = 1, label = "Батыр "];
+		105759274697968 -> 105759274698064 [color = red];
+		105759274698064 [shape=oval, height = 1, label = "Он блондин "];
+		105759274698064 -> 105759274698160 [color = green];
+		105759274698160 [shape=oval, height = 1, label = "Он волейболист "];
+		105759274698160 -> 105759274698256 [color = green];
+		105759274698256 [shape=oval, height = 1, label = "Денис "];
+		105759274698160 -> 105759274698304 [color = red];
+		105759274698304 [shape=oval, height = 1, label = "Он танцор "];
+		105759274698304 -> 105759274698400 [color = green];
+		105759274698400 [shape=oval, height = 1, label = "Раиль "];
+		105759274698304 -> 105759274698448 [color = red];
+		105759274698448 [shape=oval, height = 1, label = "Ильнур "];
+		105759274698064 -> 105759274698496 [color = red];
+		105759274698496 [shape=oval, height = 1, label = "Он играет на курае "];
+		105759274698496 -> 105759274698544 [color = green];
+		105759274698544 [shape=oval, height = 1, label = "Абдрахман "];
+		105759274698496 -> 105759274698640 [color = red];
+		105759274698640 [shape=oval, height = 1, label = "Он смотрит аниме "];
+		105759274698640 -> 105759274698736 [color = green];
+		105759274698736 [shape=oval, height = 1, label = "Рушан "];
+		105759274698640 -> 105759274698784 [color = red];
+		105759274698784 [shape=oval, height = 1, label = "Он играет футбол "];
+		105759274698784 -> 105759274698880 [color = green];
+		105759274698880 [shape=oval, height = 1, label = "Альберт "];
+		105759274698784 -> 105759274698928 [color = red];
+		105759274698928 [shape=oval, height = 1, label = "Айдар "];
+	}
+}
